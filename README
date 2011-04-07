@@ -1,0 +1,12 @@
+This project shows how a live stream from a webcam can be used as a texture in 
+Open Scene Graph (OSG). This is used, e.g., for AR applications. The 
+code has been tested on Ubuntu 10.10, with a Sony PS3 Eye camera.
+
+To build:
+$ mkdir build
+$ cd build 
+$ cmake ../
+$ make
+
+To run:
+Download/copy cessna.osg in ./build and run ./osg_ar
